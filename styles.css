@@ -57,9 +57,46 @@ grid-template-rows: 1fr 2.5fr 1fr 1fr 1fr;
 
 
 .Section{
-    display: grid;
     grid-row: 3;
-    grid-column: 2;
+
+}
+
+.Section li{
+  list-style-type: none;
+}
+
+.logos1{
+  width: 20px;
+  padding-top: 15px;
+  padding-left: 10px;
+  height: 20px;
+}
+
+
+.logos2{
+  width: 20px;
+  grid-column: 1;
+   padding-top: 15px;
+  padding-left: 10px;
+  height: 20px;
+}
+
+.logos3{
+  width: 20px;
+   padding-top: 15px;
+  padding-left: 10px;
+  grid-column: 1;
+  height: 20px;
+}
+
+.logitos{
+  display: grid;
+  grid-template-columns: 1fr 5fr;
+  grid-template-rows: 1fr 1fr 1fr;
+}
+
+.logostexto{
+  padding-left: 10px;
 }
 
 .Footer{
