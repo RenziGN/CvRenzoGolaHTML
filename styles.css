@@ -67,8 +67,7 @@ grid-template-rows: 1fr 2.5fr 1fr 1fr 1fr;
 
 .logos1{
   width: 20px;
-  padding-top: 15px;
-  padding-left: 10px;
+
   height: 20px;
 }
 
@@ -76,21 +75,20 @@ grid-template-rows: 1fr 2.5fr 1fr 1fr 1fr;
 .logos2{
   width: 20px;
   grid-column: 1;
-   padding-top: 15px;
-  padding-left: 10px;
   height: 20px;
 }
 
 .logos3{
+
   width: 20px;
-   padding-top: 15px;
-  padding-left: 10px;
   grid-column: 1;
   height: 20px;
 }
 
 .logitos{
   display: grid;
+  align-items: center;
+  justify-content:center ;
   grid-template-columns: 1fr 5fr;
   grid-template-rows: 1fr 1fr 1fr;
 }
@@ -105,4 +103,14 @@ grid-template-rows: 1fr 2.5fr 1fr 1fr 1fr;
     grid-column: 2;
 }
 
+.flex-row {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
 
+.flex-center-div {
+  display: flex;
+  justify-items: center;
+  align-items: center;
+}
